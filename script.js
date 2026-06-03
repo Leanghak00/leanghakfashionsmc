@@ -3,7 +3,7 @@ const products = [
     { id: 1, name: "Semi Oversized Summer Rugby T-shirt_Black", category: "men-shirt", price: 15, img: "PictureClothes/អាវ.jpg" },
     { id: 2, name: "H&M baggy light-wash jeans", category: "men-pant", price: 15, img: "PictureClothes/ខោ.jpg" },
     { id: 3, name: "Fitted shirt", category: "women-shirt", price: 10, img: "PictureClothes/អាវមនុស្សស្រី.jpg" },
-    { id: 4, name: "Women's Loose Fit Washed Blue Wide Leg Denim Pants", category: "women-pant", price: 12, img: "/PictureClothes/ខោស្រី.jpg" },
+    { id: 4, name: "Women's Loose Fit Washed Blue Wide Leg Denim Pants", category: "women-pant", price: 12, img: "PictureClothes/ខោស្រី.jpg" },
     { id: 5, name: "Lobette Vegan Jacket", category: "men-shirt", price: 30, img: "PictureClothes/អាវធំ.jpg" },
     { id: 6, name: "ខោកាប៊ូយ - Free Size", category: "men-pant", price: 15, img: "PictureClothes/ខោ២.jpg" }
 ];
@@ -127,7 +127,7 @@ async function finishOrder() {
     const itemsList = cart.map(item => `- ${item.name} ($${item.price})`).join('\n');
 
     const message = `
-🛍️ **មានការកម្មង់ថ្មី!**
+🛍️ **សូមត្រួតពិនិត្យកម្មង់ថ្មី**
 ━━━━━━━━━━━━━━━━━━
 👤 **អតិថិជន:** ${name}
 📞 **លេខទូរស័ព្ទ:** ${phone}
